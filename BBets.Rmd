@@ -89,7 +89,7 @@ run a bunch of classes and look at the histogram.
 money = c ()
 for (i in 1:500){
 numInClass = 35
-odds = 4.50
+odds = 4.25
 bet1 = BrLw(numInClass,odds)
 money[i] = bet1
 } 
@@ -97,11 +97,10 @@ hist(money)
 ```
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
-The odds of the earning in the function is $4.50.
 
 <!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
 
- 
+ We need to run a bunch of classes and look at a histogram whichsuggest the fair odds woud be 4.25 for 35 students.
 
 
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
@@ -119,7 +118,7 @@ hist(money)
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
- 
+ We need to run a bunch of classes and look at a histogram which suggests the fair odds would be 2 for 28 students.
 
  
 
@@ -130,8 +129,6 @@ hist(money)
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
- 
-
-
+ By running a bunch of classes and look at a histogram we can suggest the fair odds would be 4.25 for a class of 35 students so that his profits would be zero.For the size of class it would be 28 to the odds of 2 to get zero profits.
 
 
